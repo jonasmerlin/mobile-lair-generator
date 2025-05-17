@@ -162,7 +162,7 @@ const DungeonThemeGenerator = () => {
           >
             Zungeon Jam
           </a>
-          .
+          . All credits go to them.
         </div>
       </div>
     </div>
