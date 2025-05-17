@@ -1,5 +1,6 @@
 import { useState } from "react";
-import { FaDiceD20 } from "react-icons/fa";
+import { FaDiceD20, FaGithub } from "react-icons/fa";
+import { FaBluesky } from "react-icons/fa6";
 
 const DungeonThemeGenerator = () => {
   const creatures = [
@@ -163,6 +164,25 @@ const DungeonThemeGenerator = () => {
             Zungeon Jam
           </a>
           . All credits go to them.
+        </div>
+
+        <div className="mt-4 flex flex-row gap-2 justify-center">
+          <a
+            href="https://github.com/jonasmerlin/zungeon-theme-generator"
+            className="text-stone-500 hover:text-red-500 transition-colors"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaGithub className="inline-block" />
+          </a>
+          <a
+            href="https://bsky.app/profile/jonasmerlin.bsky.social"
+            className="text-stone-500 hover:text-red-500 transition-colors"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaBluesky className="inline-block" />
+          </a>
         </div>
       </div>
     </div>
