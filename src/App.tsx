@@ -122,7 +122,7 @@ const MobileLairGenerator = () => {
 
         <div className="mt-4 flex flex-row gap-2 justify-center">
           <a
-            href="https://github.com/jonasmerlin/zungeon-theme-generator"
+            href="https://github.com/jonasmerlin/mobile-lair-generator"
             className="text-stone-500 hover:text-green-500 transition-colors"
             target="_blank"
             rel="noopener noreferrer"
